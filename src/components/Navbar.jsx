@@ -25,6 +25,9 @@ const Navbar = ({ mode, toggleMode }) => {
           <Button color="inherit" component={Link} to="/teams">
             Teams
           </Button>
+          <Button color="inherit" component={Link} to="/admin">
+            Admin
+          </Button>
         </Box>
         <IconButton color="inherit" onClick={toggleMode} sx={{ ml: 1 }}>
           {mode === 'light' ? <Brightness4Icon /> : <Brightness7Icon />}
